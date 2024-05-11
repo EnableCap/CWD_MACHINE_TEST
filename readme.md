@@ -30,6 +30,9 @@ Before you begin, ensure that you have the following installed on your machine:
 5. **Stopping the Broker:**
    - To stop the broker and remove the Docker containers, press `Ctrl + C` in the terminal where the `docker-compose up` command is running.
 
-6. **Run Publisher & Subscriber:**
+
+# Run The Application 
+
+1. **Run Publisher & Subscriber:**
    - To run publisher `go run publisher.go constants.go`
    - To run subscriber `go run subscriber.go constants.go`
