@@ -42,6 +42,6 @@ func publish(client mqtt.Client) {
 
 func publishRepeatedly(f func(mqtt.Client), client mqtt.Client){
 	for range time.Tick(IntervalInSeconds){
-		publish(client)
+		f(client)
 	}
 }
